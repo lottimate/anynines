@@ -8,7 +8,8 @@ The work sample is split into two parts:
 
 ## I Deploy Korifi to an EKS Cluster
 Installation information to roll out Korifi: https://github.com/cloudfoundry/korifi
+    
     Steps:
             - Created an access key for my AWS user
             - awscli configuration with the right credentials given by AWS IAM
-            
+
