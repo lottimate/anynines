@@ -14,3 +14,6 @@ Installation information to roll out Korifi: https://github.com/cloudfoundry/kor
             - awscli configuration with the right credentials given by AWS IAM
             - Created korif.env to store Korifi's environment variables
             - Created a cluster with eksctl named "pcf-ws-2-mate-lotti"
+            - Created root and korifi namespaces
+            - Created a personal access token on dockerhub
+            - Created a secret for the root-namespace named "image-registry-credentials"
