@@ -12,4 +12,5 @@ Installation information to roll out Korifi: https://github.com/cloudfoundry/kor
     Steps:
             - Created an access key for my AWS user
             - awscli configuration with the right credentials given by AWS IAM
-
+            - Created korif.env to store Korifi's environment variables
+            
