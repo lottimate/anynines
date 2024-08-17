@@ -18,4 +18,4 @@ Installation information to roll out Korifi: https://github.com/cloudfoundry/kor
             - Created a personal access token on dockerhub
             - Created a secret for the root-namespace named "image-registry-credentials"
             - Installed Contour as Gateway Provisioner with gateway API experimental channel
-            - Created a gatewayclass 
+            - Created a GatewayClass and a Gateway
