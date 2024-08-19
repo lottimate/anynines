@@ -21,4 +21,5 @@ Installation information to roll out Korifi: https://github.com/cloudfoundry/kor
             - Created a GatewayClass and a Gateway
             - Installed cert-manager and kpack via kubectl
             - Installed Korifi via Helm
-            
+            - ELB: {"hostname":"adeb1d6b8f22a4a96a416fdb577ecbf7-1057529710.eu-west-1.elb.amazonaws.com"}  // kubectl get service envoy-korifi -n korifi-namespace-gateway -ojsonpath='{.status.loadBalancer.ingress[0]}'
+
