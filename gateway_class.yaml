@@ -1,0 +1,20 @@
+kind: GatewayClass
+apiVersion: gateway.networking.k8s.io/v1beta1
+metadata:
+  name: gateway-class-korifi
+spec:
+  controllerName: projectcontour.io/gateway-controller
+  parametersRef:
+    kind: ContourDeployment
+    group: projectcontour.io
+    name: gateway-class-korifi-params
+    namespace: projectcontour
+---
+kind: ContourDeployment
+apiVersion: projectcontour.io/v1alpha1
+metadata:
+  namespace: projectcontour
+  name: gateway-class-korifi-params
+spec:
+  envoy:
+    workloadType: Deployment
