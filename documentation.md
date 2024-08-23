@@ -23,3 +23,15 @@ Installation information to roll out Korifi: https://github.com/cloudfoundry/kor
             - Installed Korifi via Helm
             - ELB: {"hostname":"adeb1d6b8f22a4a96a416fdb577ecbf7-1057529710.eu-west-1.elb.amazonaws.com"}  // kubectl get service envoy-korifi -n korifi-namespace-gateway -ojsonpath='{.status.loadBalancer.ingress[0]}'
 
+## II. Install a8s PostgreSQL Service
+https://github.com/anynines/pt2-postgres-data-service-test/tree/develop
+Control Plane name prefix: `pcf-ws-2-`
+
+Required steps:
+ - Provision a PostgreSQL Instance
+ - Bind an application to the PostgreSQL Instance
+ - Take a backup of the PostgreSQL Instance
+ - Visualize the Logs of the PostgreSQL Instance
+ - Visualize the Metrics of the PostgreSQL Instance
+
+ 
