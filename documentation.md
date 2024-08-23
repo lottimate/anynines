@@ -34,6 +34,7 @@ Required steps:
  - Visualize the Logs of the PostgreSQL Instance
  - Visualize the Metrics of the PostgreSQL Instance
 
+
     Steps:
             - Installed the required cert-manager
             - Installed the control plane with the required manifests
